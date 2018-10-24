@@ -11,6 +11,9 @@ namespace duck_game
             Duck mallarDuck = new MallardDuck();
             Duck redheadDuck = new RedheadDuck();
             Console.WriteLine(duck.display());
+            Console.WriteLine(duck.quack());
+            Console.Beep();
+            Console.Beep();
             Console.WriteLine(mallarDuck.display());
             Console.WriteLine(redheadDuck.display());
             Console.WriteLine("Press any key to close.");
