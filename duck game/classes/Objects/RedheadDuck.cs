@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using duckgame.classes;
 
 namespace duck_game.classes
 {
     class RedheadDuck : Duck
     {
-        public override string display()
-        {
-            return "I am a visible RedheadDuck";
-        }
+
 
     }
 }

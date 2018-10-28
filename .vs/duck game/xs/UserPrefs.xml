@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{9682C09C-45D6-495D-A01B-F8950C7B401C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="duck game/classes/Implementations/NoFlyBehavior.cs">
+    <Files>
+      <File FileName="duck game/classes/Behaviors/FlyBehavior.cs" Line="6" Column="15" />
+      <File FileName="duck game/classes/Behaviors/QuackBehavior.cs" Line="4" Column="22" />
+      <File FileName="duck game/classes/Behaviors/SwimBehavior.cs" Line="6" Column="34" />
+      <File FileName="duck game/classes/Objects/Duck.cs" Line="12" Column="27" />
+      <File FileName="duck game/classes/Objects/MallardDuck.cs" Line="13" Column="1" />
+      <File FileName="duck game/classes/Objects/RedheadDuck.cs" Line="9" Column="6" />
+      <File FileName="duck game/classes/Objects/RubberDuck.cs" Line="5" Column="97" />
+      <File FileName="duck game/Program.cs" Line="11" Column="15" />
+      <File FileName="duck game/classes/Implementations/NormalFlyBehavior.cs" Line="5" Column="6" />
+      <File FileName="duck game/classes/Implementations/NormalSwimBehavior.cs" Line="13" Column="10" />
+      <File FileName="duck game/classes/Implementations/NormalQuackBehavior.cs" Line="12" Column="38" />
+      <File FileName="duck game/classes/Implementations/NoFlyBehavior.cs" Line="4" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.duck_220game PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
