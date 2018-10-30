@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 using duckgame.classes;
+using duckgame.classes.Implementations;
 
 namespace duck_game.classes
 {
-    class RedheadDuck : Duck
+    class RedheadDuck
     {
 
-
+        public RedheadDuck()
+        {
+           
+        }
     }
 }

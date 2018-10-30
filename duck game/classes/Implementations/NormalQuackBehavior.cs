@@ -9,7 +9,7 @@ namespace duckgame.classes.Implementations
 
         public string getQuackAsString()
         {
-            return "Normalin normalin";
+            return "Normal";
         }
     }
 }

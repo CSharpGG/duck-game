@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using duck_game.classes;
+using duckgame.classes;
 using duckgame.classes.Implementations;
 
 namespace duck_game
@@ -8,30 +10,25 @@ namespace duck_game
     {
         static void Main(string[] args)
         {
-            Duck mallardDuck = new MallardDuck();
-            mallardDuck.flyBehavior = new NormalFlyBehavior();
-            mallardDuck.quackBehavior = new NormalQuackBehavior();
-            mallardDuck.swimBehavior = new NormalSwimBehavior();
+
+            Duck duck = new Duck(
+                new NormalFlyBehavior(), 
+                new NormalSwimBehavior(),
+                new NormalQuackBehavior());
 
 
-            Duck redHeadDuck = new RedheadDuck();
-            redHeadDuck.flyBehavior = new NoFlyBehavior();
-            redHeadDuck.quackBehavior = new NormalQuackBehavior();
-            redHeadDuck.swimBehavior = new NormalSwimBehavior();
+            Duck muteDuck = new Duck(
+                new NoFlyBehavior(),
+                new NormalSwimBehavior(),
+                new NormalQuackBehavior());
 
+            List<Duck> ducks = new List<Duck>() { duck, muteDuck };
 
-            Console.WriteLine(mallardDuck.flyBehavior.getFlyAsString());
-            Console.WriteLine(mallardDuck.quackBehavior.getQuackAsString());
-            Console.WriteLine(mallardDuck.swimBehavior.getSwimAsString());
+            foreach(Duck newDuck in ducks){
+                Console.WriteLine(newDuck.play());
+            }
 
-            Console.WriteLine(" ");
-
-            Console.WriteLine(redHeadDuck.flyBehavior.getFlyAsString());
-            Console.WriteLine(redHeadDuck.quackBehavior.getQuackAsString());
-            Console.WriteLine(redHeadDuck.swimBehavior.getSwimAsString());
             Console.ReadLine();
-
-
 
 
         }

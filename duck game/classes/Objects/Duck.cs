@@ -5,14 +5,26 @@ using duckgame.classes;
 
 namespace duck_game.classes
 {
-    class Duck
+    public class Duck
     {
-        public QuackBehavior quackBehavior { get; set; }
-        public SwimBehavior swimBehavior { get; set; }
-        public FlyBehavior flyBehavior { get; set; }
+        FlyBehavior flyBehavior;
+        SwimBehavior swimBehavior;
+        QuackBehavior quackBehavior;
 
-        public virtual String getNameAsString(){
-            return "I am a simple Duck";
+
+        public Duck(FlyBehavior flyBehavior, SwimBehavior swimBehavior,
+                    QuackBehavior quackBehavior)
+        {
+            this.flyBehavior = flyBehavior;
+            this.quackBehavior = quackBehavior;
+            this.swimBehavior = swimBehavior;
         }
+
+        public String play(){
+            return this.flyBehavior.getFlyAsString()+ " " + this.swimBehavior.getSwimAsString() +" " +
+                       this.quackBehavior.getQuackAsString();
+        }
+
+
     }
 }
