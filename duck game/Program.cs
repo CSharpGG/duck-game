@@ -11,26 +11,48 @@ namespace duck_game
         static void Main(string[] args)
         {
 
-            Duck duck = new Duck(
-                new NormalFlyBehavior(), 
-                new NormalSwimBehavior(),
-                new NormalQuackBehavior());
+            // Duck duck = new Duck(
+            //     new NormalFlyBehavior(), 
+            //     new NormalSwimBehavior(),
+            //     new NormalQuackBehavior());
 
 
-            Duck muteDuck = new Duck(
-                new NoFlyBehavior(),
-                new NormalSwimBehavior(),
-                new NormalQuackBehavior());
+            // Duck muteDuck = new Duck(
+            //     new NoFlyBehavior(),
+            //     new NormalSwimBehavior(),
+            //     new NormalQuackBehavior());
 
-            List<Duck> ducks = new List<Duck>() { duck, muteDuck };
+            // List<Duck> ducks = new List<Duck>() { duck, muteDuck };
+
+            // foreach(Duck newDuck in ducks){
+            //     Console.WriteLine(newDuck.play());
+            // }
+
+            // Console.ReadLine();
+
+            Duck normalDuck = new normalDuck();
+
+            List<Duck> ducks = new List<Duck>() { normalDuck };
 
             foreach(Duck newDuck in ducks){
                 Console.WriteLine(newDuck.play());
             }
 
             Console.ReadLine();
-
-
+            Console.ReadLine();
         }
+    }
+
+    void Maint2() {
+        Duck normalDuck = new normalDuck();
+
+        List<Duck> ducks = new List<Duck>() { normalDuck };
+
+        foreach(Duck newDuck in ducks){
+            Console.WriteLine(newDuck.play());
+        }
+
+        Console.ReadLine();
+        Console.ReadLine();
     }
 }
