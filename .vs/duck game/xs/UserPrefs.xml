@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{9682C09C-45D6-495D-A01B-F8950C7B401C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="duck game/classes/Implementations/NormalQuackBehavior.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="duck game/classes/Objects/MallardDuck.cs">
     <Files>
-      <File FileName="duck game/classes/Objects/Duck.cs" Line="25" Column="62" />
-      <File FileName="duck game/Program.cs" Line="28" Column="43" />
-      <File FileName="duck game/classes/Objects/MallardDuck.cs" Line="9" Column="29" />
-      <File FileName="duck game/classes/Objects/RubberDuck.cs" Line="13" Column="10" />
-      <File FileName="duck game/classes/Objects/RedheadDuck.cs" Line="9" Column="22" />
-      <File FileName="duck game/classes/Implementations/NormalSwimBehavior.cs" Line="1" Column="1" />
-      <File FileName="duck game/classes/Implementations/NormalFlyBehavior.cs" Line="5" Column="6" />
+      <File FileName="duck game/classes/Objects/RedheadDuck.cs" Line="20" Column="48" />
+      <File FileName="duck game/Program.cs" Line="21" Column="42" />
+      <File FileName="duck game/classes/Objects/Duck.cs" Line="10" Column="9" />
+      <File FileName="duck game/classes/Objects/RubberDuck.cs" Line="10" Column="6" />
+      <File FileName="duck game/classes/Objects/MallardDuck.cs" Line="25" Column="10" />
       <File FileName="duck game/classes/Implementations/NoFlyBehavior.cs" Line="4" Column="45" />
+      <File FileName="duck game/classes/Implementations/NormalFlyBehavior.cs" Line="5" Column="6" />
       <File FileName="duck game/classes/Implementations/NormalQuackBehavior.cs" Line="12" Column="27" />
+      <File FileName="duck game/classes/Implementations/NormalSwimBehavior.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
